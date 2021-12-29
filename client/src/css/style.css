@@ -717,7 +717,7 @@ ul.minicart .cart-price .new {
 .menu-style-two {
 	padding: 28px 30px;
 	border-radius: 0 0 14px 14px;
-	background-image: url(../img/bg/header_bg.jpg);
+	background: #232934;
 	background-position: right center;
 	background-size: cover;
 	position: relative;
@@ -742,7 +742,7 @@ ul.minicart .cart-price .new {
 	transition: .3s linear;
 }
 .s-header-top-area {
-	background: #232934;
+	background: #171b22;
 }
 .navbar-wrap ul li > .submenu {
 	position: absolute;
@@ -761,8 +761,8 @@ ul.minicart .cart-price .new {
 	top: 100%;
 	visibility: hidden;
 	min-width: 230px;
-	border: 1px solid #3a2746;
-	background: #1c1421;
+	border: 1px solid #2b79da;
+	background: #232934;
 	box-shadow: 0px 30px 70px 0px rgba(137,139,142,0.15);
 	margin: 0;
 	border-radius: 2px;
@@ -807,7 +807,7 @@ ul.minicart .cart-price .new {
     top: 0;
     width: 100%;
     z-index: 99;
-    background-image: url(../img/bg/header_bg.jpg);
+    background: #232934;
     -webkit-animation: 1000ms ease-in-out 0s normal none 1 running fadeInDown;
     animation: 1000ms ease-in-out 0s normal none 1 running fadeInDown;
     -webkit-box-shadow: 0 10px 15px rgba(25, 25, 25, 0.1);
