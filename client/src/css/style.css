@@ -345,6 +345,7 @@ label {
 	display: flex;
 	align-items: center;
 	flex-wrap: wrap;
+	height: 45px;
 }
 .header-top-offer p,
 .time-count {
