@@ -10,6 +10,8 @@ export class AppComponent implements OnInit {
   title = 'Reactr Raptr Blog';
   users: any;
 
+  slide = 1;
+
   constructor(private http: HttpClient) {}
 
   ngOnInit() {
@@ -22,6 +24,10 @@ export class AppComponent implements OnInit {
     }, error => {
       console.log(error);
     });
+  }
+
+  changeSlide(slideFocus: number) {
+    this.slide = slideFocus;
   }
 
 }
