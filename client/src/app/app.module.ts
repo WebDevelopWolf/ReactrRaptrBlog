@@ -8,19 +8,25 @@ import { AppComponent } from './app.component';
 import { HttpClientModule } from '@angular/common/http';
 import { HeaderComponent } from './header/header.component';
 import { NgxMasonryModule } from 'ngx-masonry';
+import { SlickCarouselModule } from 'ngx-slick-carousel';
+import { HomeComponent } from './home/home.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
-  declarations: [
+  declarations: [		
     AppComponent,
       HeaderComponent,
-      HeaderComponent
+      HeaderComponent,
+      HomeComponent,
+      FooterComponent
    ],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
     AppRoutingModule,
     HttpClientModule,
-    NgxMasonryModule
+    NgxMasonryModule,
+    SlickCarouselModule
   ],
   providers: [
     { provide: Window, useValue: window }
